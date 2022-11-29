@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/handsontable@11.1/dist/handsontable.full.min.js"></script>
+    <link type="text/css" rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/handsontable@11.1/dist/handsontable.full.min.css" />
+
+
+
+    <link rel="stylesheet" href="./assets/styles/salesforce-lightning-design-system.css" />
+    <link rel="stylesheet" href="./assets/styles/salesforce-lightning-design-system-legacy.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+</head>
+
+<body>
+    <h1 class="text-center slds-m-top_xx-large  slds-text-heading_medium ">Table 1</h1>
+
+
+    <!-- Table 1-->
+    <table
+        class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-table_fixed-layout border-top slds-m-top_xx-large "
+        aria-label="Example table of Opportunities with no row hovers">
+
+        <!-- Table Head 1 -->
+        <thead>
+            <tr class="slds-line-height_reset ">
+                <th class="bg-white border" scope="col">
+
+                </th>
+                <th class="slds-border_bottom text-center border-brown " scope="col" colspan="2">
+                    <div class="slds-truncate  slds-p-vertical_xxx-small  " title="Account Name">Country</div>
+                </th>
+
+
+            </tr>
+        </thead>
+        <!-- Table head2 -->
+
+        <thead>
+            <tr>
+                <th class="bg-white border-bottom" scope="col">
+
+                </th>
+
+                <th class="	slds-border_right  slds-border_left border-bottom" scope="col" colspan="1">
+                    <div class="slds-truncate slds-align_absolute-center" title="United States">United States</div>
+                </th>
+
+                <th class="border-bottom" scope="col" colspan="1">
+                    <div class="slds-truncate slds-align_absolute-center" title="India">India</div>
+                </th>
+                </th>
+            </tr>
+        </thead>
+
+        <!-- Table body -->
+
+        <tbody>
+            <!-- first row -->
+            <tr class="slds-hint-parent">
+                <th data-label="COLA" scope="row">
+                    <div class="slds-truncate" title="COLA">
+                        <p tabindex="-1">COLA %</p>
+                    </div>
+                </th>
+                <td data-label="Account Name">
+                    <div class="slds-truncate text-right" title="5%">5%</div>
+                </td>
+                <td data-label="Close Date">
+                    <div class="slds-truncate text-right" title="7%">7%</div>
+                </td>
+
+                </td>
+            </tr>
+
+            <!-- Second row -->
+            <tr class="slds-hint-parent">
+                <th class="border-bottom" data-label="COLA PASS" scope="row">
+                    <div class="slds-truncate" title="COLA PASS">
+                        <a href="#" tabindex="-1">COLA PASS %</a>
+                    </div>
+                </th>
+                <td class="border-bottom" data-label="percentage">
+                    <div class="slds-truncate text-right" title="5%">5%</div>
+                </td>
+                <td class="border-bottom bg-highlight" data-label="percentage">
+                    <div class="slds-truncate text-right" title="7%">7%</div>
+                </td>
+
+            </tr>
+
+            <!--Third row -->
+
+            <tr class="slds-hint-parent bg-blue">
+                <th data-label="Base Amt" scope="row">
+                    <div class="slds-truncate bold" title="Base Amt">
+                        <a href="#" tabindex="-1">Base Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+
+            <!--Fourth row -->
+
+
+            <tr class="slds-hint-parent border-bottom">
+                <th data-label="COLA PASS Amt" scope="row">
+                    <div class="slds-truncate " title="COLA PASS Amt">
+                        <a href="#" tabindex="-1">COLA PASS Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+            <!--Fifth row -->
+
+            <tr class="slds-hint-parent ">
+                <th data-label="Contingency Amt" scope="row">
+                    <div class="slds-truncate " title="Contingency Amt">
+                        <a href="#" tabindex="-1">Contingency Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+
+            <!--Sixth row -->
+
+
+            <tr class="slds-hint-parent">
+                <th data-label="Adusted Amt" scope="row">
+                    <div class="slds-truncate " title="Adusted Amt">
+                        <a href="#" tabindex="-1">Adusted Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+
+            <!-- Seventh Row -->
+
+
+            <tr class="slds-hint-parent">
+                <th data-label="Disc Amt" scope="row">
+                    <div class="slds-truncate " title="Disc Amt">
+                        <a href="#" tabindex="-1">Disc Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+            <!--Eighth row -->
+
+
+            <tr class="slds-hint-parent bg-blue">
+                <th class="border-bottom" data-label="Quoted Amt" scope="row">
+                    <div class="slds-truncate bold " title="Quoted Amt">
+                        <a href="#" tabindex="-1">Quoted Amt</a>
+                    </div>
+                </th>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+
+            <!--Ninth row -->
+
+            <tr class="slds-hint-parent">
+                <th data-label="Total Base Cost" scope="row">
+                    <div class="slds-truncate " title="Total Base Cost">
+                        <a href="#" tabindex="-1">Total Base Cost</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate bold" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+
+            <!-- Tenth row -->
+
+            <tr class="slds-hint-parent">
+                <th data-label="COLA Cost Adj" scope="row">
+                    <div class="slds-truncate " title="COLA Cost Adj">
+                        <a href="#" tabindex="-1">COLA Cost Adj</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+
+            <!-- Evelenth Row -->
+
+            <tr class="slds-hint-parent bg-blue">
+                <th data-label="Total" scope="row">
+                    <div class="slds-truncate bold " title="Total">
+                        <a href="#" tabindex="-1">Total Cost</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+
+            <!-- Twelth Row -->
+
+            <tr class="slds-hint-parent bg-blue">
+                <th class="border-bottom" data-label="Margin" scope="row">
+                    <div class="slds-truncate bold " title="Margin">
+                        <a href="#" tabindex="-1">Margin</a>
+                    </div>
+                </th>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+
+
+        </tbody>
+    </table>
+
+
+
+
+    <h1 class="text-center slds-m-top_xx-large  slds-text-heading_medium ">Table 2</h1>
+
+
+
+    <!-- TABLE 2 -->
+
+    <table
+        class="slds-table slds-table_cell-buffer  slds-table_bordered slds-table_col-bordered slds-table_fixed-layout border-top slds-m-top_xx-large"
+        aria-label="Example table of Opportunities with no row hovers">
+
+
+        <thead>
+            <tr>
+                <th class="bg-white border-bottom " scope="col">
+
+                </th>
+
+                <th class="	 border-bottom border-brown " scope="col" colspan="1">
+                    <div class="slds-truncate slds-align_absolute-center slds-p-vertical_xxx-small  " title="Overall">
+                        Overall</div>
+                </th>
+
+                <th class="border-bottom border-brown " scope="col" colspan="1">
+                    <div class="slds-truncate slds-align_absolute-center" title="Labour">Labor Only</div>
+                </th>
+
+                <th class="border-bottom border-brown" scope="col" colspan="1">
+                    <div class="slds-truncate slds-align_absolute-center" title="Add-Ons-Only">Add-Ons-Only</div>
+                </th>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <!-- First Row -->
+            <tr class="slds-hint-parent ">
+                <th class="border-bottom" data-label="Margin" scope="row">
+                    <div class="slds-truncate  " title="Contingency">
+                        <a href="#" tabindex="-1">Contingency %</a>
+                    </div>
+                </th>
+                <td class="border-bottom" data-label="25%">
+                    <div class="slds-truncate" title="25%">25%</div>
+                </td>
+                <td class="border-bottom bg-highlight" data-label="blank td">
+                    <div class="slds-truncate" title="20%">20%</div>
+                </td>
+                <td class="border-bottom" data-label="20%">
+                    <div class="slds-truncate" title="20%">20%</div>
+                </td>
+            </tr>
+
+            <!-- Second Row -->
+            <tr class="slds-hint-parent bg-blue">
+                <th data-label="Base Amt" scope="row">
+                    <div class="slds-truncate bold" title="Base Amt">
+                        <a href="#" tabindex="-1">Base Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+            </tr>
+
+            <!-- Third Row -->
+            <tr class="slds-hint-parent border-bottom">
+                <th data-label="COLA PASS Amt" scope="row">
+                    <div class="slds-truncate " title="COLA PASS Amt">
+                        <a href="#" tabindex="-1">COLA PASS Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+            <!--Fouth row -->
+
+            <tr class="slds-hint-parent ">
+                <th data-label="Contingency Amt" scope="row">
+                    <div class="slds-truncate " title="Contingency Amt">
+                        <a href="#" tabindex="-1">Contingency Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+
+            <!--fifth row -->
+
+
+            <tr class="slds-hint-parent bg-blue">
+                <th data-label="Adusted Amt" scope="row">
+                    <div class="slds-truncate bold " title="Adusted Amt">
+                        <a href="#" tabindex="-1">Adusted Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+            </tr>
+
+            <!-- Sixth row -->
+            <tr class="slds-hint-parent">
+                <th data-label="Disc Amt" scope="row">
+                    <div class="slds-truncate " title="Disc Amt">
+                        <a href="#" tabindex="-1">Disc Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+            <!--Seven row -->
+
+
+            <tr class="slds-hint-parent bg-blue">
+                <th class="border-bottom" data-label="Quoted Amt" scope="row">
+                    <div class="slds-truncate bold " title="Quoted Amt">
+                        <a href="#" tabindex="-1">Quoted Amt</a>
+                    </div>
+                </th>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+
+            <!--Eigth row -->
+
+            <tr class="slds-hint-parent bg-blue">
+                <th data-label="Total Base Cost" scope="row">
+                    <div class="slds-truncate " title="Total Base Cost">
+                        <a href="#" tabindex="-1">Total Base Cost</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate bold" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+
+            <!-- Ninth row -->
+
+            <tr class="slds-hint-parent">
+                <th data-label="COLA Cost Adj" scope="row">
+                    <div class="slds-truncate " title="COLA Cost Adj">
+                        <a href="#" tabindex="-1">COLA Cost Adj</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+
+            <!-- Tenth Row -->
+
+            <tr class="slds-hint-parent ">
+                <th data-label="Total" scope="row">
+                    <div class="slds-truncate bold " title="Total">
+                        <a href="#" tabindex="-1">Total Cost</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+
+            <!-- Eleventh Row -->
+
+            <tr class="slds-hint-parent bg-blue">
+
+                <th class="border-bottom" data-label="Margin" scope="row">
+                    <div class="slds-truncate bold " title="Margin">
+                        <a href="#" tabindex="-1">Margin</a>
+                    </div>
+                </th>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+
+    <h1 class="text-center slds-m-top_xx-large  slds-text-heading_medium ">Table 3</h1>
+
+
+    <!-- Table 3 -->
+
+    <table
+        class="slds-table slds-table_cell-buffer  slds-table_bordered slds-table_col-bordered slds-table_fixed-layout border-top slds-m-top_xx-large"
+        aria-label="Example table of Opportunities with no row hovers">
+
+
+        <thead>
+            <tr>
+                <th class="bg-white border-bottom " scope="col">
+
+                </th>
+
+                <th class="	 border-bottom border-brown " scope="col" colspan="1">
+                    <div class="slds-truncate slds-align_absolute-center slds-p-vertical_xxx-small  " title="Overall">
+                        Overall</div>
+                </th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <!-- First row -->
+            <tr class="slds-hint-parent bg-blue">
+
+                <th data-label="Base Amt" scope="row">
+                    <div class="slds-truncate bold" title="Base Amt">
+                        <a href="#" tabindex="-1">Base Amt</a>
+                    </div>
+                </th>
+                <td data-label="$0 ">
+                    <div class="slds-truncate text-right bold" title="$0">$000,000,000</div>
+                </td>
+
+
+            </tr>
+
+            <!--Second row -->
+
+
+            <tr class="slds-hint-parent border-bottom">
+
+                <th data-label="COLA PASS Amt" scope="row">
+                    <div class="slds-truncate " title="COLA PASS Amt">
+                        <a href="#" tabindex="-1">COLA PASS Amt</a>
+                    </div>
+                </th>
+                <td data-label="$0">
+                    <div class="slds-truncate text-right" title="$0">$000,000,000</div>
+                </td>
+
+
+            </tr>
+            <!--Third row -->
+
+            <tr class="slds-hint-parent ">
+
+                <th data-label="Contingency Amt" scope="row">
+                    <div class="slds-truncate " title="Contingency Amt">
+                        <a href="#" tabindex="-1">Contingency Amt</a>
+                    </div>
+                </th>
+                <td data-label="$0">
+                    <div class="slds-truncate text-right" title="$0">$000,000,000</div>
+                </td>
+
+
+            </tr>
+
+            <!--Fourth row -->
+
+
+            <tr class="slds-hint-parent">
+
+                <th data-label="Adusted Amt" scope="row">
+                    <div class="slds-truncate bold " title="Adusted Amt">
+                        <a href="#" tabindex="-1">Adusted Amt</a>
+                    </div>
+                </th>
+                <td data-label="$0">
+                    <div class="slds-truncate text-right bold" title="$0">$000,000,000</div>
+                </td>
+
+
+            </tr>
+            <!-- Fifth row -->
+
+
+            <tr class="slds-hint-parent">
+
+                <th data-label="Adusted Amt" scope="row">
+                    <div class="slds-truncate  " title="Disc">
+                        <a href="#" tabindex="-1">Disc %</a>
+                    </div>
+                </th>
+                <td data-label="0%">
+                    <div class="slds-truncate text-right" title="0%">00%</div>
+                </td>
+
+            </tr>
+            <!-- Sixth row -->
+
+            <tr class="slds-hint-parent">
+
+                <th data-label="Adusted Amt" scope="row">
+                    <div class="slds-truncate  " title="Disc">
+                        <a href="#" tabindex="-1">Disc Amt</a>
+                    </div>
+                </th>
+                <td data-label="$0">
+                    <div class="slds-truncate text-right" title="$0">$000,000,000</div>
+                </td>
+            </tr>
+
+            <!-- Seventh row -->
+
+
+            <tr class="slds-hint-parent">
+
+                <th data-label="Adusted Amt" scope="row">
+                    <div class="slds-truncate  " title="Disc">
+                        <a href="#" tabindex="-1">Net Effective Disc % </a>
+                    </div>
+                </th>
+                <td data-label="0%">
+                    <div class="slds-truncate text-right" title="0%">00%</div>
+                </td>
+
+
+            </tr>
+
+            <!-- Eight Row -->
+            <tr class="slds-hint-parent">
+
+                <th data-label="Adusted Amt" scope="row">
+                    <div class="slds-truncate  " title="Disc">
+                        <a href="#" tabindex="-1">Net Effective Disc Amount</a>
+                    </div>
+                </th>
+                <td data-label="$0">
+                    <div class="slds-truncate text-right " title="S0">$000,000,000</div>
+                </td>
+
+
+            </tr>
+
+            <!-- Ninth Row -->
+            <tr class="slds-hint-parent bg-blue">
+                <th class="border-bottom" data-label="Quoted Amt" scope="row">
+                    <div class="slds-truncate bold " title="Quoted Amt">
+                        <a href="#" tabindex="-1">Quoted Amt</a>
+                    </div>
+                </th>
+                <td class="border-bottom" data-label="$0">
+                    <div class="slds-truncate text-right bold" title="$0">$000,000,000</div>
+                </td>
+
+            </tr>
+
+            <!--Tenth row -->
+
+            <tr class="slds-hint-parent">
+                <th data-label="Total Base Cost" scope="row">
+                    <div class="slds-truncate " title="Total Base Cost">
+                        <a href="#" tabindex="-1">Total Base Cost</a>
+                    </div>
+                </th>
+                <td data-label="$0">
+                    <div class="slds-truncate text-right" title="$0">$000,000,000</div>
+                </td>
+
+
+            </tr>
+
+            <!-- Eleventh row -->
+            <tr class="slds-hint-parent bg-blue">
+
+                <th class="border-bottom" data-label="Margin" scope="row">
+                    <div class="slds-truncate bold " title="Margin">
+                        <a href="#" tabindex="-1">Margin</a>
+                    </div>
+                </th>
+                <td class="border-bottom" data-label="0%">
+                    <div class="slds-truncate text-right bold" title="0%">00%</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h1 class="text-center slds-m-top_xx-large  slds-text-heading_medium ">Table 4</h1>
+
+
+    <!-- table 4 -->
+    <table
+        class="slds-table slds-table_cell-buffer  slds-table_bordered slds-table_col-bordered slds-table_fixed-layout border-top slds-m-top_xx-large"
+        aria-label="Example table of Opportunities with no row hovers">
+
+
+
+        <thead>
+            <tr>
+                <th class="bg-white border-bottom " scope="col">
+
+                </th>
+
+                <th class="	 border-bottom border-brown " scope="col" colspan="1">
+                    <div class="slds-truncate slds-align_absolute-center slds-p-vertical_xxx-small  " title="Overall">
+                        Overall</div>
+                </th>
+
+                <th class="border-bottom border-brown " scope="col" colspan="1">
+                    <div class="slds-truncate slds-align_absolute-center" title="Labour">Travel</div>
+                </th>
+
+                <th class="border-bottom border-brown " scope="col" colspan="1">
+                    <div class="slds-truncate slds-align_absolute-center" title="Add-Ons-Only">Equipment</div>
+                </th>
+
+                <th class="border-bottom border-brown" scope="col" colspan="1">
+                    <div class="slds-truncate slds-align_absolute-center" title="Add-Ons-Only">Equipment</div>
+                </th>
+                </th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <!-- First Row -->
+            <tr class="slds-hint-parent ">
+                <th class="border-bottom" data-label="Margin" scope="row">
+                    <div class="slds-truncate  " title="Disc">
+                        <a href="#" tabindex="-1">Disc %</a>
+                    </div>
+                </th>
+                <td class="border-bottom " data-label="10%">
+                    <div class="slds-truncate" title="10%">10%</div>
+                </td>
+                <td class="border-bottom" data-label="10%">
+                    <div class="slds-truncate" title="10%">10%</div>
+                </td>
+                <td class="border-bottom bg-highlight" data-label="8%">
+                    <div class="slds-truncate" title="8%">8%</div>
+                </td>
+                <td class="border-bottom bg-highlight" data-label="9%">
+                    <div class="slds-truncate" title="9%">9%</div>
+                </td>
+
+            </tr>
+
+            <!-- Second row -->
+            <tr class="slds-hint-parent bg-blue">
+                <th data-label="Base Amt" scope="row">
+                    <div class="slds-truncate bold" title="Base Amt">
+                        <a href="#" tabindex="-1">Base Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+
+
+            </tr>
+            <!-- Third row -->
+            <tr class="slds-hint-parent border-bottom">
+                <th data-label="COLA PASS Amt" scope="row">
+                    <div class="slds-truncate " title="COLA PASS Amt">
+                        <a href="#" tabindex="-1">COLA PASS Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+            </tr>
+            <!--Fourth row -->
+
+            <tr class="slds-hint-parent ">
+                <th data-label="Contingency Amt" scope="row">
+                    <div class="slds-truncate " title="Contingency Amt">
+                        <a href="#" tabindex="-1">Contingency Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+            </tr>
+
+            <!--Fifth row -->
+
+
+            <tr class="slds-hint-parent bg-blue">
+                <th data-label="Adusted Amt" scope="row">
+                    <div class="slds-truncate bold " title="Adusted Amt">
+                        <a href="#" tabindex="-1">Adusted Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+
+            <!-- Sixth Row -->
+            <tr class="slds-hint-parent">
+                <th data-label="Disc Amt" scope="row">
+                    <div class="slds-truncate " title="Disc Amt">
+                        <a href="#" tabindex="-1">Disc Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+            </tr>
+            <!--Seventh row -->
+
+
+            <tr class="slds-hint-parent bg-blue">
+                <th class="border-bottom" data-label="Quoted Amt" scope="row">
+                    <div class="slds-truncate bold " title="Quoted Amt">
+                        <a href="#" tabindex="-1">Quoted Amt</a>
+                    </div>
+                </th>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+            </tr>
+
+            <!--Eight row -->
+
+            <tr class="slds-hint-parent bg-blue">
+                <th data-label="Total Base Cost" scope="row">
+                    <div class="slds-truncate bold " title="Total Base Cost">
+                        <a href="#" tabindex="-1">Total Base Cost</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate bold" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+            </tr>
+
+            <!-- Ninth Row -->
+
+            <tr class="slds-hint-parent">
+                <th data-label="COLA Cost Adj" scope="row">
+                    <div class="slds-truncate " title="COLA Cost Adj">
+                        <a href="#" tabindex="-1">COLA Cost Adj</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+            </tr>
+
+            <!-- Tenth Row -->
+
+            <tr class="slds-hint-parent ">
+                <th data-label="Total" scope="row">
+                    <div class="slds-truncate bold " title="Total">
+                        <a href="#" tabindex="-1">Total Cost</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+            </tr>
+
+            <!-- Eleventh Row -->
+
+            <tr class="slds-hint-parent bg-blue">
+
+                <th class="border-bottom" data-label="Margin" scope="row">
+                    <div class="slds-truncate bold " title="Margin">
+                        <a href="#" tabindex="-1">Margin</a>
+                    </div>
+                </th>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+
+            </tr>
+        </tbody>
+
+    </table>
+
+    <!-- Table 5 -->
+
+    <h1 class="text-center slds-m-top_xx-large  slds-text-heading_medium ">Table 5</h1>
+
+
+    <table
+        class="slds-table slds-table_cell-buffer  slds-table_bordered slds-table_col-bordered slds-table_fixed-layout border-top slds-m-top_xx-large"
+        aria-label="Example table of Opportunities with no row hovers">
+
+
+
+        <thead>
+            <tr>
+                <th class="bg-white border-bottom " scope="col">
+
+                </th>
+
+                <th class="	 border-bottom border-brown " scope="col" colspan="1">
+                    <div class="slds-truncate slds-align_absolute-center slds-p-vertical_xxx-small  " title="Overall">
+                        Overall</div>
+                </th>
+
+                <th class="border-bottom border-brown " scope="col" colspan="1">
+                    <div class="slds-truncate slds-align_absolute-center" title="Labour">United States / Texas / Dallas
+                    </div>
+                </th>
+
+                <th class="border-bottom border-brown" scope="col" colspan="1">
+                    <div class="slds-truncate slds-align_absolute-center" title="Add-Ons-Only">United States /
+                        California / Sar</div>
+                </th>
+
+                <th class="border-bottom border-brown" scope="col" colspan="1">
+                    <div class="slds-truncate slds-align_absolute-center" title="Add-Ons-Only">India / Karnataka /
+                        Banglore</div>
+                </th>
+
+                <th class="border-bottom border-brown" scope="col" colspan="1">
+                    <div class="slds-truncate slds-align_absolute-center" title="Add-Ons-Only">India / Maharastra / Pune
+                    </div>
+                </th>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr class="slds-hint-parent ">
+                <th class="border-bottom" data-label="Contingency" scope="row">
+                    <div class="slds-truncate  " title="Contingency">
+                        <a href="#" tabindex="-1">Disc %</a>
+                    </div>
+                </th>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+            </tr>
+
+            <!-- first row -->
+
+            <tr class="slds-hint-parent bg-blue">
+                <th data-label="Base Amt" scope="row">
+                    <div class="slds-truncate bold" title="Base Amt">
+                        <a href="#" tabindex="-1">Base Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+
+            <!-- second row -->
+            </tr>
+
+            <tr class="slds-hint-parent border-bottom">
+                <th data-label="COLA PASS Amt" scope="row">
+                    <div class="slds-truncate " title="COLA PASS Amt">
+                        <a href="#" tabindex="-1">COLA PASS Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+            </tr>
+            <!--third row -->
+
+            <tr class="slds-hint-parent ">
+                <th data-label="Contingency Amt" scope="row">
+                    <div class="slds-truncate " title="Contingency Amt">
+                        <a href="#" tabindex="-1">Contingency Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+            </tr>
+
+            <!--fouth row -->
+
+
+            <tr class="slds-hint-parent bg-blue">
+                <th data-label="Adusted Amt" scope="row">
+                    <div class="slds-truncate bold " title="Adusted Amt">
+                        <a href="#" tabindex="-1">Adusted Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+            </tr>
+
+            <!-- fifth row -->
+            <tr class="slds-hint-parent">
+                <th data-label="Disc Amt" scope="row">
+                    <div class="slds-truncate " title="Disc Amt">
+                        <a href="#" tabindex="-1">Disc Amt</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+            </tr>
+            <!--Sixth row -->
+
+
+            <tr class="slds-hint-parent bg-blue">
+                <th class="border-bottom" data-label="Quoted Amt" scope="row">
+                    <div class="slds-truncate bold " title="Quoted Amt">
+                        <a href="#" tabindex="-1">Quoted Amt</a>
+                    </div>
+                </th>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+            </tr>
+
+            <!--Seventh row -->
+
+            <tr class="slds-hint-parent bg-blue">
+                <th data-label="Total Base Cost" scope="row">
+                    <div class="slds-truncate bold " title="Total Base Cost">
+                        <a href="#" tabindex="-1">Total Base Cost</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate bold" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+            </tr>
+
+            <!-- Eight row -->
+
+            <tr class="slds-hint-parent">
+                <th data-label="COLA Cost Adj" scope="row">
+                    <div class="slds-truncate " title="COLA Cost Adj">
+                        <a href="#" tabindex="-1">COLA Cost Adj</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+            </tr>
+
+            <!-- Ninth Row -->
+
+            <tr class="slds-hint-parent ">
+                <th data-label="Total" scope="row">
+                    <div class="slds-truncate bold " title="Total">
+                        <a href="#" tabindex="-1">Total Cost</a>
+                    </div>
+                </th>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+            </tr>
+
+            <!-- Tenth Row -->
+
+            <tr class="slds-hint-parent bg-blue">
+
+                <th class="border-bottom" data-label="Margin" scope="row">
+                    <div class="slds-truncate bold " title="Margin">
+                        <a href="#" tabindex="-1">Margin</a>
+                    </div>
+                </th>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+                <td class="border-bottom" data-label="blank td">
+                    <div class="slds-truncate" title="blank"></div>
+                </td>
+
+
+
+            </tr>
+        </tbody>
+
+
+
+
+    </table>
+
+
+
+
+
+
+
+</body>
+
+</html>

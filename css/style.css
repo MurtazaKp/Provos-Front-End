@@ -1,0 +1,40 @@
+.text-center{
+    text-align: center !important;
+}
+
+.bg-white{
+    background-color: #fff !important;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bg-blue{
+    background-color: #E5EFFD;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.border-bottom{
+    border-bottom: 5px solid #DDDBDA;
+}
+
+.border-top{
+    border-top:1px solid #fff;
+}
+
+.border-brown{
+    border-top: 1px solid #DDDBDA;
+}
+
+.bg-highlight{
+    background-color: rgba(255, 179, 91, 0.53);
+}
