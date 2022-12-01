@@ -7,9 +7,11 @@ body{
 
 
 
-.slds-table{
+/* .slds-table{
     border: 1px solid #DDDBDA ;
-}
+    border-top: none;
+   
+} */
 
 
 
@@ -48,8 +50,25 @@ a{
     
 }
 
+.provus-border_white{
+    border-color: transparent;
+}
 
 
+
+.slds-hint-parent th:first-child {
+    border-left: 1px solid #DDDBDA;
+}
+.slds-hint-parent td:last-child {
+    border-right: 1px solid #DDDBDA;
+}
+
+.slds-table_bordered, .slds-table--bordered {
+    border-top: 0;
+}
+.slds-table thead th { 
+    border-right: 1px solid #DDDBDA;
+}
 .slds-hint-parent:hover .provus-bg_highlight {
     background-color:rgba(255, 179, 91, 0.53) !important ;
    
