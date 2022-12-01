@@ -1,24 +1,28 @@
+
 body{
-    background-color:white;
+    margin:0px 20px;
+    background-color: #fff;
 }
 
-.text-center{
-    text-align: center !important;
+
+
+
+.slds-table{
+    border: 1px solid #DDDBDA ;
 }
 
-.bg-white{
+
+
+.provus-bg_white{
     background-color: #fff !important;
 }
 
-.text-right{
-    text-align: right;
-}
 
-.bold{
+.provus-text_bold{
     font-weight: bold;
 }
 
-.bg-blue{
+.provus-bg_blue{
     background-color: #E5EFFD;
 }
 
@@ -27,18 +31,61 @@ a{
     text-decoration: none;
 }
 
-.border-bottom{
+.provus-border_bottom{
     border-bottom: 5px solid #DDDBDA;
 }
 
-.border-top{
+.provus-border_top{
     border-top:1px solid #fff;
 }
 
-.border-brown{
+.provus-border_brown{
     border-top: 1px solid #DDDBDA;
 }
 
-.bg-highlight{
+.provus-bg_highlight{
     background-color: rgba(255, 179, 91, 0.53);
 }
+
+
+
+
+/* Tabs css */
+
+
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
