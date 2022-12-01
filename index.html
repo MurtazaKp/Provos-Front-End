@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SalesForce Table</title>
+    <title>Document</title>
 
     <script src="https://cdn.jsdelivr.net/npm/handsontable@11.1/dist/handsontable.full.min.js"></script>
     <link type="text/css" rel="stylesheet"
@@ -27,7 +27,7 @@
 
 <body>
     <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'Table')">Table</button>
+        <button class="tablinks" onclick="openCity(event, 'Table')" id="active">Table</button>
         <button class="tablinks" onclick="openCity(event, 'Documentation')">Documentation</button>
       
       </div>
@@ -39,7 +39,7 @@
         <!-- Table 1-->
         
         <table
-            class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-table_fixed-layout provus_border-top slds-m-top_xx-large "
+            class="slds-table  slds-table_bordered slds-table_col-bordered slds-table_fixed-layout provus_border-top slds-m-top_xx-large "
             aria-label="Example table of Opportunities with no row hovers">
     
             <!-- Table Head 1 -->
@@ -298,7 +298,7 @@
         <!-- TABLE 2 -->
     
         <table
-            class="slds-table slds-table_cell-buffer  slds-table_bordered slds-table_col-bordered slds-table_fixed-layout provus_border-top slds-m-top_xx-large"
+            class="slds-table   slds-table_bordered slds-table_col-bordered slds-table_fixed-layout provus_border-top slds-m-top_xx-large"
             aria-label="Example table of Opportunities with no row hovers">
     
     
@@ -333,13 +333,13 @@
                             <a href="#" tabindex="-1">Contingency %</a>
                         </div>
                     </th>
-                    <td class="provus-border_bottom" data-label="25%">
+                    <td class="provus-border_bottom " data-label="25%">
                         <div class="slds-truncate slds-text-align_right" title="25%">25%</div>
                     </td>
                     <td class="provus-border_bottom provus-bg_highlight" data-label="blank td">
                         <div class="slds-truncate slds-text-align_right" title="20%">20%</div>
                     </td>
-                    <td class="provus-border_bottom" data-label="20%">
+                    <td class="provus-border_bottom provus-bg_highlight" data-label="20%">
                         <div class="slds-truncate slds-text-align_right" title="20%">20%</div>
                     </td>
                 </tr>
@@ -552,7 +552,7 @@
         <!-- Table 3 -->
     
         <table
-            class="slds-table slds-table_cell-buffer  slds-table_bordered slds-table_col-bordered slds-table_fixed-layout provus_border-top slds-m-top_xx-large"
+            class="slds-table   slds-table_bordered slds-table_col-bordered slds-table_fixed-layout provus_border-top slds-m-top_xx-large"
             aria-label="Example table of Opportunities with no row hovers">
     
     
@@ -580,9 +580,17 @@
                             <a href="#" tabindex="-1">Base Amt</a>
                         </div>
                     </th>
-                    <td data-label="$0 ">
-                        <div class="slds-truncate slds-text-align_right provus-text_bold" title="$0">$000,000,000</div>
-                    </td>
+                    <td class="slds-cell-edit slds-cell_action-mode" role="gridcell">
+                        <span class="slds-grid slds-grid_align-end">
+                          <span class="slds-truncate" title="$000,000,000">$000,000,000</span>
+                          <button class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" tabindex="0" title="Edit-icon">
+                            <svg class="slds-button__icon slds-button__icon_hint slds-button__icon_edit" aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit"></use>
+                            </svg>
+                            <span class="slds-assistive-text">Edit-Icon</span>
+                          </button>
+                        </span>
+                      </td>
     
     
                 </tr>
@@ -597,9 +605,17 @@
                             <a href="#" tabindex="-1">COLA PASS Amt</a>
                         </div>
                     </th>
-                    <td data-label="$0">
-                        <div class="slds-truncate slds-text-align_right" title="$0">$000,000,000</div>
-                    </td>
+                    <td class="slds-cell-edit slds-cell_action-mode" role="gridcell">
+                        <span class="slds-grid slds-grid_align-end">
+                          <span class="slds-truncate" title="$000,000,000">$000,000,000</span>
+                          <button class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" tabindex="0" title="Edit-icon">
+                            <svg class="slds-button__icon slds-button__icon_hint slds-button__icon_edit" aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit"></use>
+                            </svg>
+                            <span class="slds-assistive-text">Edit-Icon</span>
+                          </button>
+                        </span>
+                      </td>
     
     
                 </tr>
@@ -612,10 +628,17 @@
                             <a href="#" tabindex="-1">Contingency Amt</a>
                         </div>
                     </th>
-                    <td data-label="$0">
-                        <div class="slds-truncate slds-text-align_right" title="$0">$000,000,000</div>
-                    </td>
-    
+                    <td class="slds-cell-edit slds-cell_action-mode" role="gridcell">
+                        <span class="slds-grid slds-grid_align-end">
+                          <span class="slds-truncate" title="$000,000,000">$000,000,000</span>
+                          <button class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" tabindex="0" title="Edit-icon">
+                            <svg class="slds-button__icon slds-button__icon_hint slds-button__icon_edit" aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit"></use>
+                            </svg>
+                            <span class="slds-assistive-text">Edit-Icon</span>
+                          </button>
+                        </span>
+                      </td>
     
                 </tr>
     
@@ -629,9 +652,17 @@
                             <a href="#" tabindex="-1">Adusted Amt</a>
                         </div>
                     </th>
-                    <td data-label="$0">
-                        <div class="slds-truncate slds-text-align_right provus-text_bold" title="$0">$000,000,000</div>
-                    </td>
+                    <td class="slds-cell-edit slds-cell_action-mode" role="gridcell">
+                        <span class="slds-grid slds-grid_align-end">
+                          <span class="slds-truncate" title="$000,000,000">$000,000,000</span>
+                          <button class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" tabindex="0" title="Edit-icon">
+                            <svg class="slds-button__icon slds-button__icon_hint slds-button__icon_edit" aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit"></use>
+                            </svg>
+                            <span class="slds-assistive-text">Edit-Icon</span>
+                          </button>
+                        </span>
+                      </td>
     
     
                 </tr>
@@ -645,9 +676,17 @@
                             <a href="#" tabindex="-1">Disc %</a>
                         </div>
                     </th>
-                    <td data-label="0%">
-                        <div class="slds-truncate slds-text-align_right" title="0%">00%</div>
-                    </td>
+                    <td class="slds-cell-edit slds-cell_action-mode" role="gridcell">
+                        <span class="slds-grid slds-grid_align-end">
+                          <span class="slds-truncate" title="00%">00%</span>
+                          <button class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" tabindex="0" title="Edit-icon">
+                            <svg class="slds-button__icon slds-button__icon_hint slds-button__icon_edit" aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit"></use>
+                            </svg>
+                            <span class="slds-assistive-text">Edit-Icon</span>
+                          </button>
+                        </span>
+                      </td>
     
                 </tr>
                 <!-- Sixth row -->
@@ -659,9 +698,17 @@
                             <a href="#" tabindex="-1">Disc Amt</a>
                         </div>
                     </th>
-                    <td data-label="$0">
-                        <div class="slds-truncate slds-text-align_right" title="$0">$000,000,000</div>
-                    </td>
+                    <td class="slds-cell-edit slds-cell_action-mode" role="gridcell">
+                        <span class="slds-grid slds-grid_align-end">
+                          <span class="slds-truncate" title="$000,000,000">$000,000,000</span>
+                          <button class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" tabindex="0" title="Edit-icon">
+                            <svg class="slds-button__icon slds-button__icon_hint slds-button__icon_edit" aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit"></use>
+                            </svg>
+                            <span class="slds-assistive-text">Edit-Icon</span>
+                          </button>
+                        </span>
+                      </td>
                 </tr>
     
                 <!-- Seventh row -->
@@ -674,9 +721,17 @@
                             <a href="#" tabindex="-1">Net Effective Disc % </a>
                         </div>
                     </th>
-                    <td data-label="0%">
-                        <div class="slds-truncate slds-text-align_right" title="0%">00%</div>
-                    </td>
+                    <td class="slds-cell-edit slds-cell_action-mode" role="gridcell">
+                        <span class="slds-grid slds-grid_align-end">
+                          <span class="slds-truncate" title="00%">00%</span>
+                          <button class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" tabindex="0" title="Edit-icon">
+                            <svg class="slds-button__icon slds-button__icon_hint slds-button__icon_edit" aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit"></use>
+                            </svg>
+                            <span class="slds-assistive-text">Edit-Icon</span>
+                          </button>
+                        </span>
+                      </td>
     
     
                 </tr>
@@ -689,9 +744,17 @@
                             <a href="#" tabindex="-1">Net Effective Disc Amount</a>
                         </div>
                     </th>
-                    <td data-label="$0">
-                        <div class="slds-truncate slds-text-align_right " title="S0">$000,000,000</div>
-                    </td>
+                    <td class="slds-cell-edit slds-cell_action-mode" role="gridcell">
+                        <span class="slds-grid slds-grid_align-end">
+                          <span class="slds-truncate" title="$000,000,000">$000,000,000</span>
+                          <button class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" tabindex="0" title="Edit-icon">
+                            <svg class="slds-button__icon slds-button__icon_hint slds-button__icon_edit" aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit"></use>
+                            </svg>
+                            <span class="slds-assistive-text">Edit-Icon</span>
+                          </button>
+                        </span>
+                      </td>
     
     
                 </tr>
@@ -703,9 +766,17 @@
                             <a href="#" tabindex="-1">Quoted Amt</a>
                         </div>
                     </th>
-                    <td class="provus-border_bottom" data-label="$0">
-                        <div class="slds-truncate slds-text-align_right provus-text_bold" title="$0">$000,000,000</div>
-                    </td>
+                    <td class="slds-cell-edit slds-cell_action-mode" role="gridcell">
+                        <span class="slds-grid slds-grid_align-end">
+                          <span class="slds-truncate" title="$000,000,000">$000,000,000</span>
+                          <button class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" tabindex="0" title="Edit-icon">
+                            <svg class="slds-button__icon slds-button__icon_hint slds-button__icon_edit" aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit"></use>
+                            </svg>
+                            <span class="slds-assistive-text">Edit-Icon</span>
+                          </button>
+                        </span>
+                      </td>
     
                 </tr>
     
@@ -717,9 +788,17 @@
                             <a href="#" tabindex="-1">Total Base Cost</a>
                         </div>
                     </th>
-                    <td data-label="$0">
-                        <div class="slds-truncate slds-text-align_right" title="$0">$000,000,000</div>
-                    </td>
+                    <td class="slds-cell-edit slds-cell_action-mode" role="gridcell">
+                        <span class="slds-grid slds-grid_align-end">
+                          <span class="slds-truncate" title="$000,000,000">$000,000,000</span>
+                          <button class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" tabindex="0" title="Edit-icon">
+                            <svg class="slds-button__icon slds-button__icon_hint slds-button__icon_edit" aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit"></use>
+                            </svg>
+                            <span class="slds-assistive-text">Edit-Icon</span>
+                          </button>
+                        </span>
+                      </td>
     
     
                 </tr>
@@ -732,9 +811,17 @@
                             <a href="#" tabindex="-1">Margin</a>
                         </div>
                     </th>
-                    <td class="provus-border_bottom" data-label="0%">
-                        <div class="slds-truncate slds-text-align_right provus-text_bold" title="0%">00%</div>
-                    </td>
+                    <td class="slds-cell-edit slds-cell_action-mode" role="gridcell">
+                        <span class="slds-grid slds-grid_align-end">
+                          <span class="slds-truncate" title="00%">00%</span>
+                          <button class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" tabindex="0" title="Edit-icon">
+                            <svg class="slds-button__icon slds-button__icon_hint slds-button__icon_edit" aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit"></use>
+                            </svg>
+                            <span class="slds-assistive-text">Edit-Icon</span>
+                          </button>
+                        </span>
+                      </td>
                 </tr>
             </tbody>
         </table>
@@ -745,7 +832,7 @@
     
         <!-- table 4 -->
         <table
-            class="slds-table slds-table_cell-buffer  slds-table_bordered slds-table_col-bordered slds-table_fixed-layout provus_border-top slds-m-top_xx-large"
+            class="slds-table   slds-table_bordered slds-table_col-bordered slds-table_fixed-layout provus_border-top slds-m-top_xx-large"
             aria-label="Example table of Opportunities with no row hovers">
     
     
@@ -1137,7 +1224,7 @@
     
     
         <table
-            class="slds-table slds-table_cell-buffer  slds-table_bordered slds-table_col-bordered slds-table_fixed-layout provus_border-top slds-m-top_xx-large"
+            class="slds-table   slds-table_bordered slds-table_col-bordered slds-table_fixed-layout provus_border-top slds-m-top_xx-large"
             aria-label="Example table of Opportunities with no row hovers">
     
     
@@ -1484,7 +1571,7 @@
       
       <div id="Documentation" class="tabcontent">
         <h1 class="text-center slds-p-vertical_medium  slds-text-heading_medium slds-align_absolute-center ">Custom Classes Documentation</h1>
-        <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered" aria-label="Example table of Opportunities with vertical borders">
+        <table class="slds-table  slds-table_bordered slds-table_col-bordered" aria-label="Example table of Opportunities with vertical borders">
            
 
             <thead>
@@ -1595,6 +1682,7 @@
           document.getElementById(tabsContent).style.display = "block";
           evt.currentTarget.className += " active";
         }
+            document.getElementById("active").click();
         </script>
 
 

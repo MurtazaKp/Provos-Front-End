@@ -45,6 +45,15 @@ a{
 
 .provus-bg_highlight{
     background-color: rgba(255, 179, 91, 0.53);
+    
+}
+
+
+
+.slds-hint-parent:hover .provus-bg_highlight {
+    background-color:rgba(255, 179, 91, 0.53) !important ;
+   
+    
 }
 
 
